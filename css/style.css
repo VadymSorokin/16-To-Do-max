@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 66rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.completed {
+  background-color: #00ff2a;
+}
+
+.input-wrap {
+  margin: 1rem 0;
+}
+.input-issue {
+  width: 20rem;
+  padding-left: 1rem;
+}
+
+.button {
+  padding: 0 1rem;
+  width: 8rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.input-group {
+  flex-basis: 60%;
+}
+
+.list-issue {
+  display: flex;
+  margin: 0.3rem 0;
+}
+.list-issue-text {
+  border: 0.0625rem dashed black;
+  background-color: rgba(255, 238, 0, 0.856);
+  padding-left: 1rem;
+  width: 20rem;
+}
+.list-issue-delete-button {
+  margin-left: 0.25rem;
+}
+.list-todo {
+  width: 20rem;
+}
+
+.completed {
+  background-color: #0ce90c;
+}
