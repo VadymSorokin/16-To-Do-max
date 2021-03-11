@@ -116,7 +116,6 @@ function changeStatusEventListener() {
 		if (event.target.classList.contains('list-issue-text')) {
 			const targetId = getTargetId(event);
 			const targetStatus = sendGetTargetStatus(targetId);
-			console.log(targetStatus);
 		}
 	})
 }
@@ -128,8 +127,5 @@ function getTargetId(event) {
 function sendGetTargetStatus(targetId) {
 	return fetch(`https://jsonplaceholder.typicode.com/todos/${targetId}`)
 		.then((response) => response.json())
-		.then(targetStatus => {
-			targetStatus.completed;
-		})
-		 
+		.then(status => status.completed;)
 }
