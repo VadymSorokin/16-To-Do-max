@@ -37,8 +37,8 @@ body {
 
 .button {
   transition-duration: 600ms;
-  border-radius: 0.5rem;
-  padding-left: 1.3rem;
+  border-radius: .5rem;
+  padding-left: 0 .3rem;
 }
 
 .button:hover {
@@ -57,7 +57,7 @@ ul {
 
 .list-issue {
   display: flex;
-  margin: 0.3rem 0;
+  margin: .3rem 0;
 }
 .list-issue-text {
   border: 0.0625rem dashed black;
