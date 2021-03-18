@@ -28,6 +28,7 @@ body {
   width: 20rem;
   padding-left: 1rem;
   line-height: 2rem;
+  border: none;
 }
 
 .input-issue:focus {
