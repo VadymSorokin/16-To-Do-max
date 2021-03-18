@@ -27,6 +27,7 @@ body {
 .input-issue {
   width: 20rem;
   padding-left: 1rem;
+  line-height: 2rem;
 }
 
 .input-issue:focus {
