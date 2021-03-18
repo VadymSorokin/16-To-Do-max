@@ -1,13 +1,11 @@
 const deleteButton = document.querySelector('.list-issue-delete-button');
 const inputButton = document.querySelector('.input-button');
 const list = document.querySelector('.list');
-const issueText = document.querySelector('.list-issue-text');
 const inputValue = document.forms.group;
 
 init();
 
 function init() {
-
 	getListItems();
 	inputButtonEventListener();
 	deleteIssueEventListener();
