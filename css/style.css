@@ -23,10 +23,16 @@ body {
 .input-wrap {
   margin: 0 auto;
 }
+
 .input-issue {
   width: 20rem;
   padding-left: 1rem;
 }
+
+.input-issue:focus {
+  box-shadow: 0px 0px 8px 5px rgba(138, 159, 176, 0.89);
+}
+
 .input-item {
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
@@ -59,6 +65,7 @@ ul {
   display: flex;
   margin: .3rem 0;
 }
+
 .list-issue-text {
   border-radius: 0.5rem;
   background-color: rgba(255, 238, 0, 0.856);
@@ -68,6 +75,7 @@ ul {
   max-height: 1.5rem;
   overflow: auto;
 }
+
 .list-issue-text:hover {
   cursor: pointer;
   box-shadow: 0px 0px 8px 5px rgba(138, 159, 176, 0.89);
@@ -77,9 +85,11 @@ ul {
   -ms-transform: scale(1.04);
   -o-transform: scale(1.04);
 }
+
 .list-issue-delete-button {
   margin-left: 0.25rem;
 }
+
 .list-todo {
   width: 20rem;
 }
